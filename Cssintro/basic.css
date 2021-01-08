@@ -1,0 +1,86 @@
+h1{
+    
+    /* 29.12.2020*/
+    color: yellowgreen;
+    font-size:50px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    background-color: darkorchid;
+    /*text-shadow: 0mm;
+    text-decoration-style: double;
+    text-align: right;*/
+}
+h2{
+    /* element selector*/
+    color: blue;
+    text-decoration:cyan;
+    text-transform: lowercase;
+    text-align: center;
+    text-orientation: upright;
+    background-color:lawngreen;
+    
+}
+/* grouping selctor - when we knw we can apply same style to one or more tags*/
+h1,h2{
+    color:crimson;
+}
+.ban{
+    color:goldenrod;
+    background-color:  rgb(129, 123, 123);
+    font-size: 30px;
+
+}
+body{
+    background-image: url("F:\X-works\web technologies\imageback.jpg") ;
+    background-repeat: no-repeat;
+}
+#banner{
+color: blue;
+font-size: larger;
+}
+.new{
+    font-size: 40px;
+    padding: 50px 100px 20px 30px; 
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-right: 50px;
+    border-style: dotted;
+}
+.value1{
+    border:2px solid green;
+    width:200px;
+    height: 100px;
+margin-top: 25px;
+margin-left: 30px;
+margin-right: 40px ;
+margin-bottom: 70px;
+}
+.box1{
+    border-color: indigo;
+    border-style: ridge;
+    border-spacing: 50px;
+    height: 100px;
+    width:250px;
+}
+
+    .box2{
+        border: 3px solid yellow;
+        height: 50px;
+        width: 150px;
+        margin:25px; /* to make this box centre  inside the parent box*/
+
+       /* align-self: center;*/
+       /*-moz-box-align: center;*/
+    }
+.new:hover{
+    color:lightseagreen
+}
+.box3{
+    border: 5px;
+    height:75px;
+    width:90px;
+    background-color: maroon;
+}
+.box3:hover{
+    background-color: #782627;/* we can give color as hexadecimal values also*/
+}
